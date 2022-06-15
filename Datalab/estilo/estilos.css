@@ -1,0 +1,96 @@
+@font-face {
+    font-family: miFuente;
+    src: url(../Fuentes/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: miFuente;
+    src: url(../Fuentes/Roboto-Thin.ttf);
+    font-weight: 200;
+}
+@font-face {
+    font-family: semibold;
+    src: url(../Fuentes/EBGaramond-SemiBold.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: semibold;
+    src: url(../Fuentes/EBGaramond-Regular.ttf);
+    font-weight: 200;
+}
+
+body{
+    font-family: miFuente;
+    font-weight: 200;
+}
+
+header {
+    background-image: url(../Fotos/Fondolanding.jpg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vw;
+}
+
+main {
+    background-image: url(../Fotos/foto.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100vw;
+    height: 100vw;
+    padding: 20em 0em;
+}
+
+h1{
+    margin: 0em;
+    font-family: semibold;
+    text-align: center;
+    font-weight: 200;
+    color: #1ba8b9;
+    font-size: 4em;
+}
+
+h2{
+    margin: 0em;
+    font-family: miFuente;
+    text-align: center;
+    font-weight: 200;
+    color: black;
+}
+
+h3 {
+    text-align: right;
+    font-family: semibold;
+    font-weight: 200;
+    font-size: 2em;
+    color: #1ba8b9;
+}
+
+p{
+    text-align: left;
+    padding-left: 70%;
+    font-family: miFuente;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: black;
+}
+
+#behance {
+    background-image: url(../Fotos/beh.png);
+    background-size: 100%;
+}
+
+#insta{
+    background-image: url(../Fotos/ins.png);
+    background-size: 100%;
+}
+
+@media(max-width: 768){
+ body {font-size: 80%}
+ h1 {font-size: 80%}
+ h2 {font-size: 80%}
+ h3 {font-size: 80%}
+ p {font-size: 80%}
+}
+
+
